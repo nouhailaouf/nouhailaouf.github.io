@@ -13,18 +13,10 @@
             box-sizing: border-box;
         }
         html,body{
-            height: 200vh;
-        }
-        body>div{
-            height: 200vh;
-            display: flex;
-            flex-direction: column;
-            background-image: linear-gradient(to bottom,#c958d8 50%,#ed67ff);
-        }
-        body>div>div{
             height: 100vh;
         }
-        body>div>div:nth-child(1),body>div>div:nth-child(2){
+        body>div{
+            height: 100vh;
             color:#480252;
             font-size: clamp(16px,5vw,40px);
             font-family: "Parisienne", cursive;
@@ -33,25 +25,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-        body>div>div:nth-child(2){
-            color:#480252;
-            justify-content: flex-end;
-            align-items: flex-end;
-            font-size: clamp(16px,5vw,30px);
-            margin-right: 20px;
-            margin-bottom: 20px;
+            background-color: #c958d8;
         }
     </style>
 </head>
 <body>
     <div>
-        <div>
-            <h1>Nouhaila Oufaddoul</h1>
-        </div>
-        <div>
-            <h2>Coming soon...</h2>
-        </div>
+        <h1>Nouhaila Oufaddoul</h1>
     </div>
 </body>
 </html>
