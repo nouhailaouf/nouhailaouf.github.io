@@ -38,7 +38,7 @@ main>div{
     padding:20px;
     width: clamp(100px,80%,500px);
     border: 1px solid #470151;
-    /* background-color: white; */
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 20px;
