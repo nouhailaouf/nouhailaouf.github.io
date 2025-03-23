@@ -31,7 +31,8 @@ nav{
 main{
     height: calc(100% - 50px);
     display: flex;
-    justify-content: center;
+    flex-direction:column;
+    gap:20px;
     align-items: center;
 }
 main>div{
