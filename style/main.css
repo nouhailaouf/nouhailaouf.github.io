@@ -29,6 +29,7 @@ nav{
     font-style: normal;
 }
 main{
+    padding-top:30px;
     height: calc(100% - 50px);
     display: flex;
     flex-direction:column;
